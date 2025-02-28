@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head><title>Botonical Garden</title>
 
@@ -13,7 +14,7 @@
 
  body
 {
-
+overflow-x:hidden;
 margin:0;
 padding:0;
 font-size:15px;
@@ -209,7 +210,7 @@ text-transform:capitalize;
 letter-spacing:0.23px;
 margin-left:100px;
 margin-top:1000px;
-
+width:90%;
 }
 .event
 {
@@ -270,7 +271,7 @@ float:left;
 font-size:20px;
 padding:100px;
 background-image:url(images/botty.jpg); 
-margin-top:20px;
+margin-top:200px;
 background-size:cover;
 width:100%;
 }
@@ -278,20 +279,30 @@ width:100%;
 
 .jarden span h1
 {
+text-align:center;
 margin-left:800px;
+width:30%;
 }
 .jarden span h2
 {
+
 margin-left:800px;
 }
 .jarden span li
 {
-margin-left:700px;
+
+margin-left:750px;
 list-style:none;
+width:40%;
 }
-.jarden span h3
+.jarden  a
 {
-margin-left:800px;
+tex-align:center;
+margin-left:930px;
+background:red;
+width:10%;
+margin-top:500px;
+border-radius:10px;
 }
 .img
 {
@@ -300,40 +311,583 @@ margin-left:80px;
 margin-top:30px;
 box-shadow:10px 10px 10px ;
 }
-#main
-{
-background:pik;
-margin-top:130px;
-width:90%;
-height:700px;
-padding:10px;
-margin-left:300px;
-float:left;
+#up
+{ padding:5px;
+ height:500px;
+ margin-top:700px;
+width:50%;
 }
-# main h2
+#up  li a
 {
+list-style:none;
+background:green;
+width:13%;
+color:white;
+border-radius:5px;
+text-align: center;
+margin-left:280px;
+font-size:15px;
+padding:5px;
+
+}
+#up h1
+{
+
+width:50%;
+
+text-align: center;
+margin-left:170px;
+font-size:40px;
+padding:5px;
+}
+#up h2
+{
+width:50%;
+text-align: center;
+margin-left:160px;
 font-size:30px;
+padding:5px;
+}
+
+#up h3
+{
+
+width:30%;
+
+text-align: center;
+margin-left:220px;
+font-size:25px;
+padding:5px;
+}
+#up h4
+{
+
+width:30%;
+
+text-align: center;
+margin-left:220px;
+font-size:20px;
+padding:5px;
+}
+#blossom
+{
+margin-left:770px;
+margin-top:-500px;
+
 text-align:center;
+box-shadow:10px 10px 10px gray;
+width:40%;
+}
+#park
+{
+height:500px;
+
+width:60%;
+text-align:center;
+padding:10px;
+margin-top:1000px;
+font-size:20px;
+}
+#add
+{
+
+width:30%;
+padding:10px;
+margin-left:1000px;
+margin-top:-500px;
+font-size:20px;
+}
 
 
+#last
+{
+color:gray;
+width:80%;
+text-align:center;
+margin-top:200px;
+margin-left:200px;
+}
+#footer
+{
+ background-image:url(images/footer eco.jpg );
+
+height:500px;
+}
+
+#footer h1
+{
+text-align:center;
+color:white;
+background:red;
+width:80%;
+margin-top:-350px;
+margin-left:210px;
+}
+#footer p
+{
+text-align:center;
+color:white;
+background:red;
+width:80%;
+margin-top:-5px;
+margin-left:210px;
+}
+#footer h2
+{
+text-align:center;
+color:white;
+background:red;
+width:80%;
+margin-top:50px;
+margin-left:210px;
+font-size:35px;
+}
+
+#footer h3
+{
+text-align:center;
+color:white;
+background:red;
+width:80%;
+margin-top:30px;
+margin-left:210px;
+}
+#footer h4 
+{
+margin-top:-170px;
+margin-left:100px;
+font-size:20px;
+color:white;
+}
+#footer h5 
+{
+margin-top:-10px;
+margin-left:110px;
+font-size:15px;
+color:white;
+}
+
+.let
+{
+margin-left:1200px;
+margin-top:-300px;
+}
+/*            Media Query           */
+
+/* Extra small devices (phones, 600px and down)  */
+
+@media only screen and (max-width: 600px)
+ {
+
+		  body{background:pink;}
+
+#topheader
+{
+width:100%;
+height:300px;
+margin-left:10px;
+
+background-size:cover;
+text-align:center;
+}
+.photo
+{
+margin-right:1500px;
+padding:10px;
+width:9%;
+height:80px;
+}
+#topheader h1
+{
+margin-top:120px;
+font-size:30px;
+}
+#topheader ul li
+{
+font-size:8px;
+display:inline;
+list-style:none;
+margin:40px;
+padding:3px;
+margin-left:5px;
+margin-top:2px;
+}
+#topheader ul 
+{
+margin-top:-150px;
+margin-left:50px;
 
 }
-.map
+#topheader span
+{
+color:white;
+font-size:60px;
+font-family:Arial blacl;
+text-shadow:5px 5px 15px #13c24b  ;
+}
+
+
+#topheader span ol
+{
+height:10px;
+}
+.container
+{
+flex-direction: column;
+height:300px;
+ max-height: 150px;
+float:right;
+background:;
+width:100%;
+box-shadow:10px 10px 10px gray;
+}
+.picture 
+{
+width:9%;
+height:800px;
+position:relative;
+left:0px;
+top:-10px;
+animation:runbanner 12s infinite;
+float:right;
+}
+
+.contain
+{
+width:90%;
+height:50px;
+float:left;
+margin-left:5px;
+background:pk;
+padding:30px;
+margin-top:-600px;
+font-size:20px;
+color:green;
+
+background-size:cover;
+}
+.garden
+{
+float:left;
+font-size:10px;
+padding:10px;
+background-image:url(images/botback5.jpg); 
+margin-top:20px;
+background-size:cover;
+width:100%;
+}
+
+.pic
 {
 width:30%;
-height:400px;
+height:180px;
 float:left;
-
+margin-left:300px;
+margin-top:-200px;
+box-shadow:10px 10px 10px ;
 }
 
-.eve
+.garden span h1
+{
+margin-left:30px;
+}
+.garden span h2
+{
+margin-left:30px;
+}
+.garden span li
+{
+margin-left:8px;
+font-size:9px;
+}
+.garden span h3
+{
+margin-left:30px;
+}
+#flower
+{
+
+margin-left:200px;
+margin-top:3px;
+float:left;
+font-size:10px;
+width:50%;
+padding:3px;
+border:none;
+height:100px;
+}
+
+.toph
+{
+
+width:80%;
+height:200px;
+margin-top:30px;
+margin-left:-200px;
+}
+.card
+{
+font-size:15px;
+box-shadow:10px 10px 10px gray;
+padding:30px;
+width:50%;
+height:300px;
+float:left;
+text-align:center;
+border:none;
+text-transform:capitalize;
+letter-spacing:0.23px;
+margin-left:100px;
+margin-top:60px;
+}
+.card ol li
+{
+list-style:none;
+font-size:10px;
+}
+.card p 
+{
+font-size:30px;
+
+
+}
+#head
+ {
+
+font-size:10px;
+text-align:center;
+border:none;
+text-transform:capitalize;
+letter-spacing:0.23px;
+margin-left:10px;
+margin-top:600px;
+width:90%;
+height:150px;
+}
+
+#up
+{ padding:5px;
+ height:300px;
+ margin-top:900px;
+width:100%;
+}
+#up  li a
+{
+list-style:none;
+background:green;
+width:13%;
+color:white;
+border-radius:5px;
+text-align: center;
+margin-left:180px;
+font-size:15px;
+padding:5px;
+
+}
+#up h1
+{
+height:60px;
+width:100%;
+
+text-align: center;
+margin-left:10px;
+font-size:30px;
+padding:5px;
+mar
+}
+#up h2
+{
+
+width:100%;
+text-align: center;
+margin-left:10px;
+font-size:20px;
+padding:5px;
+margin-top:5px;
+}
+
+#up h3
+{
+
+width:100%;
+
+text-align: center;
+margin-left:10px;
+font-size:20px;
+padding:5px;
+}
+#up h4
+{
+
+width:100%;
+
+text-align: center;
+margin-left:10px;
+font-size:20px;
+padding:5px;
+}
+#blossom
+{
+margin-left:770px;
+margin-top:-500px;
+
+text-align:center;
+box-shadow:10px 10px 10px gray;
+width:40%;
+}
+.jarden
+{
+float:left;
+font-size:10px;
+padding:10px;
+background-image:url(images/botty.jpg); 
+margin-top:200px;
+background-size:cover;
+width:100%;
+}
+
+
+.jarden span h1
+{
+text-align:center;
+margin-left:250px;
+width:30%;
+}
+.jarden span h2
+{
+
+margin-left:100px;
+}
+.jarden span li
+{
+
+margin-left:200px;
+list-style:none;
+width:40%;
+}
+.jarden  a
+{
+tex-align:center;
+margin-left:90px;
+background:red;
+width:10%;
+margin-top:500px;
+border-radius:10px;
+font-size:5px;
+}
+.img
 {
 width:40%;
-height:500px;
-float:right;
-margin-top:-200px;
+height:200px;
+float:left;
+margin-left:10px;
+margin-top:30px;
+box-shadow:10px 10px 10px ;
+}
+#park
+{
+height:300px;
+
+width:100%;
+text-align:center;
+padding:10px;
+margin-top:400px;
+font-size:15px;
+}
+# park p
+{
+font-size:4px;
+width:50%;
+}
+#add
+{
+
+width:60%;
+padding:10px;
+margin-left:100px;
+margin-top:50px;
+font-size:17px;
+}
+#last
+{
+color:gray;
+width:80%;
+text-align:center;
+margin-top:100px;
+margin-left:50px;
+}
+#footer
+{
+ background-image:url(images/footer eco.jpg );
+
+
 }
 
+#footer h1
+{
+text-align:center;
+color:white;
+background:red;
+width:80%;
+margin-top:-350px;
+margin-left:10px;
+}
+#footer p
+{
+text-align:center;
+color:white;
+background:red;
+width:80%;
+margin-top:-5px;
+margin-left:10px;
+}
+#footer h2
+{
+text-align:center;
+color:white;
+background:red;
+width:80%;
+margin-top:50px;
+margin-left:10px;
+font-size:35px;
+}
+
+#footer h3
+{
+text-align:center;
+color:white;
+background:red;
+width:80%;
+font-size:15px;
+margin-top:30px;
+margin-left:10px;
+}
+#footer h4 
+{
+margin-top:-5px;
+margin-left:180px;
+font-size:20px;
+color:white;
+font-size:15px;
+}
+#footer h5 
+{
+margin-top:-10px;
+margin-left:180px;
+font-size:15px;
+color:white;
+}
+#footer h6
+{
+margin-top:5px;
+}
+#footer h7
+{
+margin-top:10px;
+
+}
+
+}
 </style>
 
 
@@ -343,12 +897,16 @@ margin-top:-200px;
 <span>
 <img src="images/icon 2.jpg"class="photo">
 <ul>
-<li> TICKETS</li>
-<li>JOIN</li>
-<li>EVENTS </li>
-<li>DONATE</li>
-<li>PLANT FINDER</li>
-<li>ABOUT US</li>
+<li  > <a href="ticket.html" style="color:white;">TICKET </a> </style></li>
+
+<li  > <a href="member.html" style="color:white;">JOIN </a> </style></li>
+
+<li  > <a href="event.html" style="color:white;">EVENT </a> </style></li>
+
+
+
+<li  > <a href="about.html" style="color:white;">ABOUT US </a> </style></li>
+
 </ul>
 <h1>ORCHID SHOW</H1>
 <ol>
@@ -359,7 +917,7 @@ margin-top:-200px;
 </span>
 </div>
 <div style=":100px;margin-left:900px;background:gen;height:600px;width:40%;overflow:hidden;">
-<
+
 
 
 
@@ -375,7 +933,7 @@ margin-top:-200px;
 <h5 style="color:#13c24b;text-align:center;"> March 1-March 20 </h5>
 <h3 style="color:#9f0c67 ;">Immerses you in the beauty of India.</h3>
 <p style="font-size:15px;font-family:verdana;">Through the harmony of tradition and modern design, the Orchid Show immerses you in the beauty of India. Behold a magnificent floor-to-ceiling peacock, its sweeping tail crafted from hundreds of orchid blooms. Marvel at a towering banyan tree with cascading roots and branches intricately enmeshed with vibrant orchids. Discover bursts of pigmented powders reflecting the vivid hues of Holi, the festival of colors.</p>
-<h3  style="border:1px black solid; text-align:center;"> plan your visit </style></h3>
+<h3  style="border:1px black solid; text-align:center; width:35%;"> plan your visit </style></h3>
 
 
 
@@ -395,8 +953,8 @@ margin-top:-200px;
 <h3>Additional Garden Hours & Information</h3>
 <ul>
 <li>Save time upon entry by securing your tickets in advance.</br> Walk-up tickets are available and can be acquired at the ticket</br>  counter on the day of your visit during operating hours. The Garden </br> accepts  cashless payments (credit/debit) only.</li>
-<li>Early Morning Walking Hours and Zoo-Museum District (ZMD)</br>  Resident Free Hours. Must show proof of membership .</br> Wednesdays and Saturdays (walking hours from 7–9 a.m.) </br> Includes Children's Garden on Saturdays only.  </li>
-<li>ZMD free tickets are available onsite for walk-ups only and </br> cannot be reserved online in advance.  </br> resident free admission is subject to availability. Free and</br>  early morning hours do not apply on holiday or event weekends,</br>  including Labor Day weekend.</li>
+<li>Early Morning Walking Hours and </br>  Resident Free Hours. Must show proof of membership .</br> Wednesdays and Saturdays (walking hours from 7–9 a.m.) </br> Includes Children's Garden on Saturdays only.  </li>
+<li> Free tickets are available onsite for walk-ups only and </br> cannot be reserved online in advance.  </br> resident free admission is subject to availability. Free and</br>  early morning hours do not apply on holiday or event weekends,</br>  including Labor Day weekend.</li>
 </ul>
 </span>
 
@@ -436,8 +994,12 @@ From corporate meetings to community gatherings to spectacular wedding reception
 
 
 <div id="head">
+
+
 <p style="color:orange;"> </style></p>
+
 <h1>Tickets</h1>
+
 <p style="color:gray;">Advance e-ticket purchase or reservations recommended. Walk-up tickets are available and can be acquired at the ticket counter on the day of your visit during operating hours. The Garden accepts cashless payments (credit/debit) only. Pricing below applies only to general Garden admission and does not apply for special events or festival with separate pricing. </style>  </p>
 <h3>Free for children ages 12 and under  </h3>
 
@@ -451,23 +1013,36 @@ From corporate meetings to community gatherings to spectacular wedding reception
 <div class="card">
 <p style="color:green"> ₹100</p>
 <h2 style="font-size:40px; color:purple;">  General Admission </h2>
-<h3 style="text-indent:0; font-size:25px;text-align:center;background:orange;padding:3px;box-shadow:10px 10px 10px gray" > Buy Tickets </style> </h3>
+<a href="ticket.html" style="text-indent:0; font-size:25px; width:30%;text-align:center;background:orange;padding:5px;box-shadow:10px 10px 10px gray" > Buy Tickets </style> </a>
 
 </div>
 <div class="card">
 <p style="color:green;"> free </p>
 <h2 style="font-size:40px; color:purple;"> Members Admission  </style>  </h2>
-
-<h3 style="text-indent:0; font-size:25px;text-align:center;background:orange;padding:3px;box-shadow:10px 10px 10px gray" > Buy Tickets </style> </h3>
-
-
+<a href="ticket.html" style="text-indent:0; font-size:25px; width:30%;text-align:center;background:orange;padding:5px;box-shadow:10px 10px 10px gray" > Buy Tickets </style> </a>
+</div>
 
 
-
-
-
+<div id="up">
+<h1> Up Coming Events</h1>
+<h2> Spring Blossom Festivel </h2>
+<h3> Friday,April 4 </h3>
+<h4> 5:30 PM - 8:00 PM</h4>
+<li > <a href="event.html">Event Details</a></li>
 
 </div>
+<div id="blossom">
+<img src="images/spring.jpg" class="gloss">
+</div>
+
+
+
+
+
+
+
+
+
 <div class="jarden">
 <span>
 <img src="images/guide.jpg" class="img">
@@ -479,19 +1054,57 @@ From corporate meetings to community gatherings to spectacular wedding reception
 </br>
 </br>
 <li>MyGuide to the Garden is a new way for you to explore Garden grounds through customized tours tailored to your interests — from what's in bloom and inspiring landscapes to art and history and plant research. </li>
-<h3 style="text-indent:0; font-size:25px;text-align:center;background:orange;padding:3px;box-shadow:10px 10px 10px gray">Learn more    </h3>
+<a href="learn.html" style="text-indent:0; font-size:25px;  text-align:center;background:orange;padding:3px;box-shadow:10px 10px 10px gray">Learn more    </a>
 
 </ul>
 </span>
 </div>
+<div id="park">
+<h1> Location & Parking </h1>
+<p> The  Botanical Garden is easily accessible from the  metro area and conveniently located near pillor 44. </p>  
+<img src="images/map.jpg "class="eco">
+</div>
+<div id="add">
+<h2> Address</h2>
+<p> near metro station kolkata    </p>
+<h2> Parking</h2>
+<p> There is no charge for parking at the Botanical Garden. In the event that the main parking lot is full, visitors should use the free parking at the overflow lots at the corner of Shaw hall and South  Avenue.</p>
 
+</div>
+<div id="last">
+<p> We kindly request all visitors to prioritize the rights of others to fully enjoy their experience in the Garden. Please be aware that the Garden reserves the right to kindly ask any visitor to depart in cases of inappropriate or offensive behavior. It is important to note that visitors will be held accountable for any damage caused to the Garden's property. We sincerely appreciate your understanding and cooperation in this matter.</p>
 
-<div id="footer">
-<img src="images/footer eco.jpg">
 
 </div>
 
 
+
+
+<hr/ style="border-top: 3px dashed green; margin-top:70px;">
+
+<div id="footer">
+<img src="images/footer eco.jpg">
+<h1> Botonical Garden  </h1>
+<p>a best place to make yourself happy</p>
+</hr>
+<h2> Thank You  </h2>
+<h3>  The Garden wouldn't be the Garden without
+our Members, Donors, and Volunteers.     </h3>
+
+<h4> Contact us. </h4>
+  <h5> 8766357894</h5>
+<img src="images/icon 2.jpg "class="let">
+<h6 style="color:white; margin-left:100px; font-size:12px; "> View us on other social media</style> </h6>
+<span>
+<p style=" margin-left:-450px;"> Facebook</p>
+<p style=" margin-left:-450px;"> instagram</p>
+<p style=" margin-left:-450px;"> whatsapp</p>
+<li style="margin-left:700px; font-size:20px; background-color:pink;" > <a href="member.html" style="color:white;">BECOME A MEMBER  </a> </style></li>
+
+</span>
+
+</div>
+ 
 
 
 </body>
